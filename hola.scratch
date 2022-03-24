@@ -1,0 +1,27 @@
+Comandos Terminal:
+
+"List": Nos permite ver el contenido de la carpeta donde nos encontramos.
+```bash
+  $ ls
+```
+
+"Change Directory": Nos permite movernos a una nueva carpeta o "directorio"
+```bash
+  $ cd [carpeta]
+```
+
+"Make Directory": Crea una nueva carpeta en el directorio donde nos encontramos actualmente.
+```bash
+  $ mkdir [nombre de la carpeta]
+```
+
+"Touch" creará un nuevo archivo.
+```bash
+  $ touch [nombre del archivo]
+```
+
+"Remove": Elimina permanentemente un archivo. ¡CUIDADO! Esto traspasa cualquier "papelera de reciclaje" que exista en el sistema y elimina los archivos PERMANENTEMENTE. Como nota, esto no eliminará carpetas, necesitamos un comando especial para eso que aprenderemos más adelante.
+
+```bash
+  $ rm [nombre del archivo]
+```
