@@ -109,9 +109,9 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num === 0, 2, 4, 6, 8) {
+  if (num % 2 === 0) {
     return true;
-  } else if (num === 1, 3, 5, 7, 9) {
+  } else {
     return false;
   }
 }
@@ -120,9 +120,9 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num === 1, 3, 5, 7, 9) {
+  if (num % 2 !== 0) {
     return true;
-  } else if (num === 0, 2, 4, 6, 8) {
+  } else {
     return false;
   }
 }
@@ -234,9 +234,10 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if (letra === "a", "e", "i", "o", "u" && letra.length < 2) {
+  
+  if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u" && letra.length < 2) {
     return "Es vocal";
-  } else if (letra !== "a", "e", "i", "o", "u") {
+  } else {
     return "Dato incorrecto";
   }
 }
